@@ -45,6 +45,10 @@ test:
   pool: 5
   username: TimelessTracker
   password: TimelessTracker
+  
+  host: localhost
+  port: 5432
+  
 
 production:
   adapter: postgresql
@@ -53,3 +57,6 @@ production:
   pool: 5
   username: TimelessTracker
   password: TimelessTracker
+  
+  host: localhost
+  port: 5432
