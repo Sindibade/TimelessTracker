@@ -1,12 +1,13 @@
 TimelessTracker::Application.routes.draw do
   
+  get "static_pages/home"
+  get "static_pages/help"
+
+
   resources :tasks
-
-
   resources :projects
 
-
-    root :to => "home#index"
+  root :to => "home#index"
     
   # The priority is based upon order of creation:
   # first created -> highest priority.
