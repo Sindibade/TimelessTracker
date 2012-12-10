@@ -15,10 +15,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: Shopping
+  database: TimelessTracker
   pool: 5
-  username: shopping
-  password: shopping
+  username: TimelessTracker
+  password: TimelessTracker
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -41,15 +41,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: shopping
+  database: TimelessTracker
   pool: 5
-  username: shopping
-  password: shopping
+  username: TimelessTracker
+  password: TimelessTracker
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: shopping
+  database: TimelessTracker
   pool: 5
-  username: shopping
-  password: shopping
+  username: TimelessTracker
+  password: TimelessTracker
