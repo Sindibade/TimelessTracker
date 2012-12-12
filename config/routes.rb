@@ -1,8 +1,10 @@
 TimelessTracker::Application.routes.draw do
   
 
+  resources :users
+
+
   #Users routes
-  get "users/new"
   match '/signup',  to: 'users#new'
 
 
@@ -16,6 +18,8 @@ TimelessTracker::Application.routes.draw do
 
   resources :tasks
   resources :projects
+  resources :users
+  
   root :to => "home#index"
     
   # The priority is based upon order of creation:
